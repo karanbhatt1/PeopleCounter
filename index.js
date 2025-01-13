@@ -15,6 +15,8 @@ function increment(){
 let totalCount= document.getElementById("totalCount")
 function save(){
     totalCount.textContent += count   + " - "
+    countEl.textContent = 0
+    count=0
 }
 
  
